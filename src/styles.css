@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('../public/iceland.jpg');
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    margin-left: 500px;
+}
+
+.btn{
+    color: black;
+    background-color: #FFC312;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+.main-container{
+    background-image: url('../public/iceland.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+.container{
+    height: 100%;
+    align-content: ceter;
+}
+
+input:focus{
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
